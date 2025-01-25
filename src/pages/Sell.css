@@ -1,0 +1,35 @@
+/* pages/Sell.css */
+.sell-page {
+    padding: 16px;
+  }
+  
+  .sell-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  .sell-form input,
+  .sell-form textarea {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .sell-form button {
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .sell-form button:hover {
+    background-color: #0056b3;
+  }
+  
